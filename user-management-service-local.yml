@@ -7,7 +7,7 @@ keycloak:
   resource: user-management-service
   public-client: true
   credentials:
-    secret: ENC(ZCu2H/uKLKSW/KfPYJG5wL6sgsR7r/JRC7pramn0IIq7bCE0LZfSRywwx5ejeRdG6daeqqifGdKScftHIFiF/cRT23BoB0On32dkeN4rUnU=)
+    secret: ENC(N32AsEBfbmTQapoWQYx53RGqvV/BlArQE2cMh0sBuXLkACRx9rqtR1hmCda6RJhemym07LMC1uDr+5mUyV26+3bD7JvTYtHg35B2Y3oSElY=)
   bearer-only: true
 
 
@@ -18,6 +18,6 @@ custom:
         serverUrl: "https://localhost:8080/auth"
         realm: "agencia"
         clientId: "agencia"
-        clientSecret: ENC(ZCu2H/uKLKSW/KfPYJG5wL6sgsR7r/JRC7pramn0IIq7bCE0LZfSRywwx5ejeRdG6daeqqifGdKScftHIFiF/cRT23BoB0On32dkeN4rUnU=)
+        clientSecret: ENC(N32AsEBfbmTQapoWQYx53RGqvV/BlArQE2cMh0sBuXLkACRx9rqtR1hmCda6RJhemym07LMC1uDr+5mUyV26+3bD7JvTYtHg35B2Y3oSElY=)
         userName: "danilo"
         password: ENC(H34eUlb4izUbQ9Wf30FKQ1Po4AhNhVKPcahQ4abySstBZ72O4wnt/NRAXF6JwAyu)
