@@ -2,7 +2,7 @@ server:
   port: 8084
 
 keycloak:
-  auth-server-url: https://localhost:8080/auth
+  auth-server-url: http://localhost:8080/auth
   realm: agencia
   resource: user-management-service
   public-client: true
@@ -15,7 +15,7 @@ custom:
   keycloak:
     rest:
       client:
-        serverUrl: "https://localhost:8080/auth"
+        serverUrl: "http://localhost:8080/auth"
         realm: "agencia"
         clientId: "agencia"
         clientSecret: ENC(N32AsEBfbmTQapoWQYx53RGqvV/BlArQE2cMh0sBuXLkACRx9rqtR1hmCda6RJhemym07LMC1uDr+5mUyV26+3bD7JvTYtHg35B2Y3oSElY=)
